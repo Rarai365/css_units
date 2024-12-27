@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Units</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="parent">
+        <div class="box-parent">
+      <h1>What is absoulute Unit and Relative Unit in CSS?</h1>
+      <p>
+        In CSS, absolute units and relative units are used to define sizes, like
+        the width, height, margin, padding, and font sizes, and they behave
+        differently based on the surrounding context.
+        <br />
+        <h3>Absoulute Units </h3>
+        <p>
+            Absolute units are fixed measurements that do not change based on other elements or the viewport. They are static and offer precise control over size. Common absolute units include:
+
+            <ol>
+                <li>px:Pixels -a fixed, screen based mesurement.</li>
+                <li>cm: Centimeters- a real -world physical measurement.</li>
+                <li>mm:Millimeters-also a real -world measurement.</li>
+                <li>in:inces</li>
+                <li>pt:Points-traditionlly 1/72 of an inch, used in print design.</li>
+                <li>pc:Picas-1 pica is equal to 12 points anotehr print design unit.</li>
+            </ol>
+
+            <br>
+            for example:
+
+            <div class="box">Box</div>
+
+        </p>
+    </div>
+    <div class="box-2-parent">
+        <h3 class="text-relative-1">Realtive Units</h3>
+        <p class="text-relative">
+            Relative units scale in response to their context, meaning they adapt to the parent element or viewport. This makes them useful for responsive design. Common relative units include:
+        
+            <ul>
+                <li>%: Percentage – relative to the parent element.</li>
+                <li>em: Relative to the font-size of the parent element.</li>
+                <li>rem: Relative to the root element’s font size, usually the <html> element</li>
+                <li>vw: Viewport width – 1vw is equal to 1% of the viewport width.</li>
+                <li>Viewport height – 1vh is equal to 1% of the viewport height</li>
+                <li>vmin and vmax: Minimum and maximum of viewport height and width, respectively.</li>
+            </ul>
+        <br>
+        for example:
+
+        <div class="child">
+            box 2
+        </div>
+
+        </p>
+      </p>
+    </div>
+
+    </div>
+  </body>
+</html>

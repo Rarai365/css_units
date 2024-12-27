@@ -1,0 +1,38 @@
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 2px solid red;
+  box-shadow: 0 2px 4 px #03d931;
+}
+.parent {
+  border: 2px solid black;
+}
+
+.child {
+  width: 20%;
+  height: 10vh;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+.text-relative {
+  font-size: 1rem;
+}
+
+.text-relative-1 {
+  font-size: 3em;
+}
+
+.box-parent {
+  border: 2px solid red;
+  padding: 12px;
+  margin: 12px 12px;
+}
+
+.box-2-parent {
+  width: 30%;
+  border: 2px solid red;
+  padding: 2em;
+  margin: 5%;
+}
